@@ -7,7 +7,7 @@ Go to https://start.spring.io/ to generate a Spring Boot project skeleton.
 
 After download the XXX.zip file you can import it to eclipse.
 
-Select File > Import > Maven > Existing Maven Projects. Browse the project root folder and select the * pom.xml * file.
+Select File > Import > Maven > Existing Maven Projects. Browse the project root folder and select the *pom.xml* file.
 
 ![Import Maven Project](./Images/ImportMavenProject.png)
 
@@ -48,7 +48,7 @@ public class ProductController {
 ```
 
 ## I don't want any DB, Why this fails?
-At this point if you don't want use any DB, you can use this project for testing, labs or others things. To avoid starting fails move to * DemoApplication.java * and replace this:
+At this point if you don't want use any DB, you can use this project for testing, labs or others things. To avoid starting fails move to *DemoApplication.java* and replace this:
 
 ```
 @SpringBootApplication
@@ -61,6 +61,6 @@ With this:
 ```
 
 ## Test API using Postman
-Open postman, create a GET request with the URL * http://localhost:9090/api/products *. If we launch the request we should recieve something like that:
+Open postman, create a GET request with the URL *http://localhost:9090/api/products*. If we launch the request we should recieve something like that:
 
 ![Sample Request](./Images/SampleRequest.png)
