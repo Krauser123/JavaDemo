@@ -3,13 +3,13 @@
 ## Prerequisites
 Go to https://start.spring.io/ to generate a Spring Boot project skeleton. 
 
-[alt text](./Images/SpringInitializer.png)
+![Spring Initializer](./Images/SpringInitializer.png)
 
 After download the XXX.zip file you can import it to eclipse.
 
 Select File > Import > Maven > Existing Maven Projects. Browse the project root folder and select the * pom.xml * file.
 
-[Sample Request](./Images/ImportMavenProject.png)
+![Import Maven Project](./Images/ImportMavenProject.png)
 
 ## Adding Controller
 Add our first controller
@@ -63,4 +63,4 @@ With this:
 ## Test API using Postman
 Open postman, create a GET request with the URL * http://localhost:9090/api/products *. If we launch the request we should recieve something like that:
 
-[Sample Request](./Images/SampleRequest.png)
+![Sample Request](./Images/SampleRequest.png)
